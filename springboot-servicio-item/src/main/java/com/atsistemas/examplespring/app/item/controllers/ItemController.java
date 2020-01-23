@@ -45,8 +45,9 @@ public class ItemController {
 		item.setCantidad(cantidad);
 		producto.setId(id);
 		producto.setNombre("Camara Sony");
-		producto.setPrecio(500.00);
-		item.setProducto(producto);
+		producto.setPrecio(500.00); 
+		
+		item.setProducto(producto);log.info("metodoAlternativo..............2");
 		return item;
 		
 	}
